@@ -1,0 +1,46 @@
+sidebar{
+    display: block;
+    height : 100%;
+    width: 15.625em;
+    background-color: $dark-blue;
+    color: $white;
+    @extend .scrollable;
+}
+logo{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    align-content:center;
+    flex-direction: column;
+    margin-top: 1em;
+    img{
+        height: 4em;
+        width: auto;
+    }
+}
+.left_menu_item{
+    display: block;
+    width: auto;
+    padding: 1rem 2em;
+}
+.company_name{
+    font-size: 1.1em;
+    font-weight: $semi-bold;
+    margin-top: 1em;
+}
+.company_title{
+    font-size: 1em;
+    font-weight: 100;
+}
+.left_menu_item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: .9em;
+    & span{
+        margin-right: .6em;
+    }
+    &:hover{
+        background-color: $dark-10;
+    }
+}

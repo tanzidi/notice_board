@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920.323" height="1080.99" viewBox="0 0 1920.323 1080.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1db6e4;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #fdd431;
+      }
+
+      .cls-3 {
+        fill: #7f817d;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="backgound" transform="translate(0.324 0.99)">
+    <g id="background" class="cls-1">
+      <rect class="cls-5" width="1920" height="1080"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="1919" height="1079"/>
+    </g>
+    <path id="yellow_shade" data-name="yellow shade" class="cls-2" d="M1645.572-.99S2255.483,460.4,1260.912,430.7-.324,864.371-.324,864.371V-.99Z"/>
+    <path id="gray_shade" data-name="gray shade" class="cls-3" d="M868.826-.99s-174.26,170.3-443.572,203.964S-.324,487-.324,487V-.99Z"/>
+    <path id="white_shade" data-name="white shade" class="cls-4" d="M1918.844,858.43C1457.45,701.992,944.57,1080,944.57,1080h974.273Z"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+.header{
+    height: 4rem;
+    width: auto;
+    background-color: white;
+    border-radius: $rs;
+    margin-bottom: 1em;
+    padding: 0px 1.5em;
+    &-page_name{
+        color: $dark-70;
+        font-weight: $medium;
+    }
+    &-user_section{
+        display: flex;
+        align-items: center;
+        &-user_name{
+            margin-right: 1.5em;
+            margin-left: .5em;
+            font-weight: $regular;
+            font-size: .9em;
+        }
+        &-user_image{
+            height: 2em;
+            width: 2em;
+            img{
+                height: 2em;
+                width: 2em;
+                border-radius: 50%;
+                padding: .1em;
+            }
+            background-color: $dark-50;
+            border-radius: 50%;
+        }
+        &-dropdown_icon{
+            cursor: pointer;
+            transition: all .3s ease;
+            img{
+                height: .4em;
+                width: auto;
+            }
+            .rotate{
+                transform: rotate(180deg);
+            }
+        }
+        &-dropdown_menue{
+            position: absolute;
+            top: 3.5em;
+            right: 1.5em;
+            background-color: $white;
+            border: 1px solid $dark-50;
+            @extend .shed-around;
+            border-radius: $rm;
+            padding: .2em 1em;
+            .element{
+                position: relative;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                border-bottom: 1px solid $dark-25;
+                padding: .3em;
+                color: $dark-50;
+                cursor: pointer;
+                &:hover{
+                    color: $black;
+                }
+                img{
+                    margin-right: .3em;
+                    height: 1em;
+                    width: 1em;
+                }
+            }
+            .element:last-child{
+                border-bottom: 0px;
+            }
+        }
+    }
+}

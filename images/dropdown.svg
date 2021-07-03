@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0.5);
+      }
+    </style>
+  </defs>
+  <path id="ic_arrow_drop_down_24px" class="cls-1" d="M7,10l8,8,8-8Z" transform="translate(-7 -10)"/>
+</svg>

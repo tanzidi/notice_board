@@ -1,0 +1,38 @@
+// colors
+
+$black : #000000;
+$white : #FFFFFF;
+$dark-blue :#2E3449;
+$gray : #7F817D;
+$green : #80CC33;
+$blue : #1DB6E4;
+$yellow : #FDD431;
+$red : #FF0000;
+$dark-100 : $black;
+$dark-70 : rgba($black, .7);
+$dark-50 : rgba($black, .5);
+$dark-30 : rgba($black, .3);
+$dark-25 : rgba($black, .25);
+$dark-10 : rgba($black, .1);
+$dark-5 : rgba($black, 0.05);
+
+//padding and margins
+
+$main_section_margin: 1em;
+$rl: 1.5625em;
+$rm: 0.625em;
+$rs: 0.3125em;
+
+//fonts
+
+$primary: "Montserrat";
+$secondary: "Roboto";
+$thin: 100;
+$extra-lite: 200;
+$lite: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$extra-extra-bold: 900;

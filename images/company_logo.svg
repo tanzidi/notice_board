@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="81" viewBox="0 0 60 81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #80cc33;
+      }
+
+      .cls-3 {
+        font-size: 46px;
+        font-family: Oswald-Regular, Oswald;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+        letter-spacing: -0.037em;
+      }
+    </style>
+  </defs>
+  <g id="Group_116" data-name="Group 116" transform="translate(-95 -30)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="60" height="60" rx="10" transform="translate(95 51)"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(-101 -178)">
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-2" width="54" height="52.276" rx="10" transform="translate(202 233)"/>
+      <text id="n" class="cls-3" transform="translate(218.015 263)"><tspan x="0" y="0">n</tspan></text>
+      <text id="BOARD" class="cls-4" transform="translate(203 277.276)"><tspan x="0" y="0">BOARD</tspan></text>
+    </g>
+  </g>
+</svg>
